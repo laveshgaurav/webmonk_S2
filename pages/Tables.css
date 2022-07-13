@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  background-color: antiquewhite;
+}
+div p:nth-child(4) {
+  color: red;
+}
+
+table {
+  width: 100%;
+  border: 1px solid red;
+  outline: none;
+  border-collapse: collapse;
+}
+
+table thead {
+  background-color: #dcb6ff;
+  color: #450085;
+  padding: 6px 12px;
+}
+table thead tr th {
+  padding: 6px 12px;
+}
+
+table tbody tr td {
+  padding: 6px 12px;
+}
+
+table tbody tr:nth-child(even) {
+  padding: 6px 12px;
+  background-color: rgb(241, 241, 241);
+  transition: 0.5s ease;
+}
+table tbody tr:hover {
+  background-color: rgb(74, 74, 74);
+  cursor: pointer;
+  color: white;
+}

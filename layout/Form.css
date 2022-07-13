@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.Container {
+  min-width: 600px;
+}
+.Container h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.Container form {
+  display: flex;
+  flex-direction: column;
+}
+
+form .Top,
+form .Middle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.Top label,
+.Middle label {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.Top label input,
+.Middle label select,
+.Bottom label textarea {
+  outline: none;
+  background-color: rgb(241, 241, 241);
+  border: 2px solid rgb(241, 241, 241);
+  padding: 6px 12px;
+  border-radius: 4px;
+  height: 32px;
+}
+
+.Top label input:focus {
+  border: 2px solid black;
+}
+
+.Bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.Bottom label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.Bottom label textarea {
+  height: 90px;
+  margin-bottom: 1rem;
+}
+
+.Bottom button {
+  width: fit-content;
+  padding: 8px 16px;
+  background-color: black;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 480px) {
+  .Container {
+    min-width: 100%;
+    padding: 1rem;
+  }
+  .Container h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .Container form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form .Top,
+  form .Middle {
+    flex-direction: column;
+  }
+  .Top label,
+  .Middle label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  .Top label input,
+  .Middle label select,
+  .Bottom label textarea {
+    outline: none;
+    background-color: rgb(241, 241, 241);
+    border: 2px solid rgb(241, 241, 241);
+    padding: 6px 12px;
+    border-radius: 4px;
+    height: 32px;
+  }
+
+  .Top label input:focus {
+    border: 2px solid black;
+  }
+
+  .Bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Bottom label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  .Bottom label textarea {
+    height: 90px;
+    margin-bottom: 1rem;
+  }
+
+  .Bottom button {
+    width: fit-content;
+    padding: 8px 16px;
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 4px;
+  }
+}
