@@ -1,0 +1,24 @@
+{
+  "name": "webmonk_s2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laveshgaurav/webmonk_S2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laveshgaurav/webmonk_S2/issues"
+  },
+  "homepage": "https://github.com/laveshgaurav/webmonk_S2#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
