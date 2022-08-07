@@ -7,10 +7,10 @@ import Home from "./pages/Home";
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      {/* <div>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about-us">About us</NavLink>
-      </div>
+      </div> */}
       <Navigation />
       <footer>Footer Component</footer>
     </BrowserRouter>
