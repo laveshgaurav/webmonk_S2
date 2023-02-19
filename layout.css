@@ -1,0 +1,133 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: aqua;
+}
+
+.parent {
+  width: 100px;
+  background-color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.child:nth-child(1) {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
+
+.child:nth-child(2) {
+  width: 20px;
+  height: 30px;
+  background-color: green;
+}
+
+.child:nth-child(3) {
+  width: 40px;
+  height: 60px;
+  background-color: blue;
+}
+
+.child:nth-child(4) {
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+}
+
+.child:nth-child(5) {
+  width: 40px;
+  height: 70px;
+  background-color: purple;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.parent_container {
+  background-color: rgb(67, 67, 67);
+  padding: 1.5rem;
+  width: 500px;
+}
+
+.parent_container h2 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.parent_container .form_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.parent_container .form_container label {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  color: white;
+}
+
+.parent_container .form_container label input {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.125rem;
+  outline: none;
+  background-color: rgb(41, 41, 41);
+  color: white;
+}
+
+.parent_container .address {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.parent_container .address textarea {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.125rem;
+  outline: none;
+  background-color: rgb(41, 41, 41);
+  color: white;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_container button {
+  height: 32px;
+  border-radius: 16px;
+  width: 100px;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+}
